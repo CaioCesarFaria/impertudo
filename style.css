@@ -8,6 +8,9 @@
     --laranja-princiapl: #F37021;
     --azul-escuro: #0B2B64;
     --azul-claro: #007AFF;
+    --azul-petroleo: #001233;
+    --laranja-secundaria: #FA9131;
+    --fonte-secundaria: "Raleway", sans-serif;
 }
 
 
@@ -31,11 +34,12 @@ a:any-link {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    flex-direction: column;
 
 }
 
 .header_menu {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     top: 2rem;
     align-items: center;
@@ -228,7 +232,7 @@ a:any-link {
     align-items: center;
     justify-content: center;
     row-gap: 1rem;
-    
+
 
 }
 
@@ -265,4 +269,374 @@ a:any-link {
 
 .img_diferencial_3 {
     width: 66.39px;
+}
+
+/* ? ==============================   CONTAINER CARDS PRODUTOS  ===================================== */
+.container_produtos {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-claro);
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.container_produtos_title {
+    color: var(--branco);
+
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    width: 40vw;
+    line-height: normal;
+}
+
+.container_produtos_subtitle {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.container_produtos_card {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    width: 20vw;
+}
+
+/* ? ==============================   CONTAINER QUEM SOMOS  ===================================== */
+
+.container_quemsomos {
+    display: flex;
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    column-gap: 5rem;
+}
+
+.quemsomos_box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.quemsomos_title {
+    color: var(--laranja-secundaria);
+
+    font-family: var(--fonte-principal);
+    font-size: 42.417px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.quemsomos_txt {
+    color: var(--azul-escuro);
+
+    font-family: var(--fonte-principal);
+    font-size: 17.67px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 154.8%;
+    padding: 0.5rem 0;
+}
+
+.quemsomos_img img {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.btn_orcamento {
+    display: flex;
+    width: 274px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: var(--laranja-secundaria);
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: 30px;
+}
+
+.btn_orcamento p {
+    color: #FFF;
+    font-family: var(--fonte-principal);
+    font-size: 16.495px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* ? ==============================   CONTAINER CARACTERÍSTICAS  ===================================== */
+.container_caracteristicas {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--laranja-secundaria);
+    height: 300px;
+}
+
+.caracteristica_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 174px;
+    width: 205px;
+    row-gap: 0.5rem;
+}
+
+.caracteristica_title {
+    color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 14.303px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.caracteristica_txt {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 11.828px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+/* ? ==============================   CONTAINER CONSULTORIA  ===================================== */
+.container_consultoria {
+    background-image: url(./assets/bg_consultoria.svg);
+    width: 100vw;
+    min-height: 446px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultoria_problema {
+    color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contultoria_txt {
+    color: var(--branco);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.595%;
+    /* 24.319px */
+    width: 50vw;
+    margin-top: 1rem;
+}
+
+.btn_consultoria {
+    display: flex;
+    width: 371px;
+    height: 48px;
+    padding: 10.424px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 17.847px;
+    flex-shrink: 0;
+    border-radius: 9.805px;
+    background: #FFF;
+    margin-top: 3rem;
+}
+
+.btn_consultoria:hover {
+    cursor: grab;
+}
+
+.btn_consultoria_box {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.btn_consultoria p {
+    color: #007AFF;
+
+    font-family: var(--fonte-principal);
+    font-size: 20.642px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+/* ? ==============================   CONTAINER footer  ===================================== */
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: var(--azul-petroleo);
+}
+
+.footer_colunas {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 3rem 2rem;
+
+}
+
+.coluna_links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+}
+
+.coluna_links a {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+}
+
+.coluna_contato {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.contato_box {
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+    column-gap: 0.5rem;
+}
+
+.contato_box_title {
+    color: #FFF;
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.227px;
+}
+
+.contato_box_subtitle {
+    color: #889;
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.227px;
+}
+
+.coluna_funcionamento {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.funcionamento_box {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.funcionamento_box_title {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.227px;
+}
+
+.funcionamento_semana,
+.funcionamento_fimdesemana {
+    color: #889;
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.227px;
+}
+
+.coluna_endereco {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    row-gap: 0.5rem;
+}
+
+.endereco_box {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.endereco_box_title {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.227px;
+
+}
+
+.endereco_txt {
+    color: #889;
+    font-family: var(--fonte-secundaria);
+    font-size: 15.919px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.227px;
+}
+.stiloweb_logo{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.copyright {
+    background-color: #000E27;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright_txt{
+    color: #C3CBCD;
+text-align: center;
+font-family:var(--fonte-secundaria);
+font-size: 13.644px;
+font-style: normal;
+font-weight: 600;
+line-height: 18.193px; /* 133.333% */
+letter-spacing: 0.227px;
 }
