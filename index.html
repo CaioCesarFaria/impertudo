@@ -22,11 +22,10 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- ============= SWIPERJS ======================== -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@latest/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@latest/swiper-bundle.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- SCRIPTS -->
-    <script defer src="./script.js"></script>
+
     <!-- META TAG OG -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Impertudo" />
@@ -143,28 +142,61 @@
         <p class="container_produtos_subtitle">Evite contratempos</p>
         <div class="container_produtos_card">
             <div class="card">
-                <div class="card-content active" id="card-content-1">
-                    <p>Um dos sistemas mais comuns de impermeabilização no Brasil, as mantas asfálticas atendem áreas de
-                        todos os tamanhos e complexidades com nível de durabilidade excepcional.</p>
-                </div>
-                <div class="card-content" id="card-content-2">
-                    <img src="./assets/prod_asfalt.png" alt="Mantas Líquidas">
-                    <p>Mantas Líquidas</p>
-                    <a href="#" class="saiba-mais">Saiba mais +</a>
+                <div class="card-content">
+                    <div class="card-front">
+                        <img src="./assets/prod_asfalt.svg" alt="Mantas Líquidas" class="product-image">
+                        <h2>Mantas Asfaltica</h2>
+                        <button class="saiba-mais">Saiba mais +</button>
+                    </div>
+                    <div class="card-back">
+                        <button class="voltar">Voltar</button>
+                        <p>Um dos sistemas mais comuns de impermeabilização no Brasil, as mantas asfálticas atendem
+                            áreas de todos os tamanhos e complexidades com nível de durabilidade excepcional</p>
+                    </div>
                 </div>
             </div>
-            <details>
-                <summary>
-                    <div class="card-content">
-                        <img src="./assets/prod_manta.png" alt="Mantas Líquidas">
-                        <p>Mantas Líquidas</p>
-                        <a href="#">Saiba mais +</a>
-                    </div>
-                </summary>
-                <p>As mantas asfálticas atendem áreas de todos os tamanhos e complexidades com nível de durabilidade
-                    excepcional.</p>
 
-            </details>
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front">
+                        <img src="./assets/prod_manta.svg" alt="Mantas Líquidas" class="product-image">
+                        <h2>Mantas Líquidas</h2>
+                        <button class="saiba-mais">Saiba mais +</button>
+                    </div>
+                    <div class="card-back">
+                        <button class="voltar">Voltar</button>
+                        <p>Um tipo de produto de fácil aplicação e consegue aderir bem em vários substratos. Atualmente é uma opção bastante procurada para quem quer economizar e resolver o problema de forma mais ágil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front">
+                        <img src="./assets/prod_cimenticios.svg" alt="Mantas Líquidas" class="product-image">
+                        <h2>Cimentícios</h2>
+                        <button class="saiba-mais">Saiba mais +</button>
+                    </div>
+                    <div class="card-back">
+                        <button class="voltar">Voltar</button>
+                        <p>A linha dos impermeabilizantes cimentícios são extremamente utilizadas na construção civil, pois além de serem muito técnicos, são de fácil aplicação e atendem vários locais em uma obra.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-front">
+                        <img src="./assets/prod_hidrofugante.svg" alt="Mantas Líquidas" class="product-image">
+                        <h2>Hidrofugantes</h2>
+                        <button class="saiba-mais">Saiba mais +</button>
+                    </div>
+                    <div class="card-back">
+                        <button class="voltar">Voltar</button>
+                        <p>Esses tipos de produtos servem bem para quem gostaria de proteger pisos e fachadas ou melhorar o aspecto de acabamento. Tais produtos são transparentes e existem com acabamento em brilho ou sem.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
@@ -280,6 +312,8 @@
             <p class="copyright_txt">© Impertudo. Todos os direitos reservados - 2022.</p>
         </div>
     </section>
+    <!-- SCRIPTS -->
+    <script defer src="./Carrossel.js"></script>
 </body>
 
 </html>

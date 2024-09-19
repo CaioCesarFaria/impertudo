@@ -309,15 +309,111 @@ a:any-link {
 
 .container_produtos_card {
     display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
 }
 
+
+/* Estilo geral do card */
 .card {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease;
+    border-radius: 35px;
+}
+
+/* Conteúdo do card */
+.card-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Frente do card */
+.card-front {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 35px;
-    width: 20vw;
+    
+    
+    color: white;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.card-front h2{
+    font-family: var(--fonte-principal);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: var(--laranja-secundaria);
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.saiba-mais {
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--laranja-secundaria);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: var(--branco);
+    width: 100%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-family: var(--fonte-principal);
+    padding-bottom: 1rem;
+    
+}
+
+/* Parte traseira do card (conteúdo expandido) */
+.card-back {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #FF7F50;
+    color: white;
+    text-align: center;
+    transition: top 0.3s ease;
+}
+.card-back p {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    color: var(--branco);
+    padding: 4rem 1.1rem;
+
+}
+.voltar {
+    border:none;
+    background-color:transparent;
+    text-decoration: underline;
+    padding-top: 1rem;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
+/* Quando o card é "ativado" (clique no botão), a parte de trás desliza para cima */
+.card.open .card-front {
+    transform: translateY(-100%);
+}
+
+.card.open .card-back {
+    top: 0;
 }
 
 /* ? ==============================   CONTAINER QUEM SOMOS  ===================================== */
