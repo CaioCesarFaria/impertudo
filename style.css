@@ -1525,7 +1525,7 @@ body {
         align-items: center;
         justify-content: center;
         background-color: var(--branco);
-        min-height: max-content;
+        
         padding-bottom: 2rem;
         height: max-content;
 
@@ -1535,7 +1535,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: max-content;
+        
         width: 80vw;
         row-gap: 0.5rem;
         height: max-content;
