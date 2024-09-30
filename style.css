@@ -245,7 +245,7 @@ body {
     width: 100vw;
     display: flex;
     background-color: var(--azul-escuro);
-    height: 320px;
+    height: max-content;
     align-items: center;
     justify-content: center;
     column-gap: 3rem;
@@ -1254,6 +1254,7 @@ body {
         align-items: center;
         justify-content: center;
         column-gap: 3rem;
+        overflow-y: hidden;
 
     }
 
@@ -2026,6 +2027,8 @@ body {
         align-items: center;
         justify-content: center;
         column-gap: 3rem;
+        overflow-y: hidden;
+        
 
     }
 
@@ -2305,6 +2308,7 @@ body {
         height: max-content;
         width: 80vw;
         row-gap: 0.5rem;
+        
     }
 
     .caracteristica_box_pageP img {
