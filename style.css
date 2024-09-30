@@ -18,6 +18,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a:any-link {
@@ -32,7 +33,7 @@ body {
 
 .container_header {
     display: flex;
-    background-image: url(./assets/bg_header.svg);
+    background-image: url(./assets/bg_header.png);
     width: 100vw;
     height: 804px;
     background-repeat: no-repeat;
@@ -545,7 +546,7 @@ body {
 
 /* ? ==============================   CONTAINER CONSULTORIA  ===================================== */
 .container_consultoria {
-    background-image: url(./assets/bg_consultoria.svg);
+    background-image: url(./assets/bg_consultoria.png);
     width: 100vw;
     min-height: 446px;
     background-repeat: no-repeat;
@@ -1031,7 +1032,7 @@ body {
 
     .container_header {
         display: flex;
-        background-image: url(./assets/bg_header.svg);
+        background-image: url(./assets/bg_header.png);
         width: 100vw;
         height: 600px;
         background-repeat: no-repeat;
@@ -1560,7 +1561,7 @@ body {
 
     /* ? ==============================   CONTAINER CONSULTORIA  ===================================== */
     .container_consultoria {
-        background-image: url(./assets/bg_consultoria.svg);
+        background-image: url(./assets/bg_consultoria.png);
         width: 100vw;
         min-height: max-content;
         background-repeat: no-repeat;
@@ -1801,7 +1802,7 @@ body {
 
     .container_header {
         display: flex;
-        background-image: url(./assets/bg_header.svg);
+        background-image: url(./assets/bg_header.png);
         width: 100vw;
         height: 600px;
         background-repeat: no-repeat;
@@ -2330,7 +2331,7 @@ body {
 
     /* ? ==============================   CONTAINER CONSULTORIA  ===================================== */
     .container_consultoria {
-        background-image: url(./assets/bg_consultoria.svg);
+        background-image: url(./assets/bg_consultoria.png);
         width: 100vw;
         min-height: max-content;
         background-repeat: no-repeat;
