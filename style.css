@@ -1035,7 +1035,7 @@ body {
         display: flex;
         background-image: url(./assets/bg_header.png);
         width: 100vw;
-        height: 600px;
+        height: max-content;
         background-repeat: no-repeat;
         background-size: auto;
         justify-content: center;
@@ -1051,7 +1051,7 @@ body {
         align-items: center;
         width: 90vw;
         justify-content: space-around;
-        height: 50px;
+        height: max-content;
 
 
 
@@ -1634,7 +1634,7 @@ body {
         color: var(--branco);
 
         font-family: var(--fonte-principal);
-        font-size: 20.642px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
@@ -1812,7 +1812,7 @@ body {
         display: flex;
         background-image: url(./assets/bg_header.png);
         width: 100vw;
-        height: 600px;
+        height: max-content;
         background-repeat: no-repeat;
         background-size: auto;
         justify-content: center;
@@ -1828,7 +1828,7 @@ body {
         align-items: center;
         width: 90vw;
         justify-content: space-around;
-        height: 50px;
+        height: max-content;
 
 
 
@@ -2016,7 +2016,7 @@ body {
     }
 
     .inicial_banner {
-        width: 40vw;
+        display: none;
     }
 
     /* ? ==============================   CONTAINER DIFERENCIAL DA EMPRESA  ===================================== */
@@ -2407,7 +2407,7 @@ body {
         color: var(--branco);
 
         font-family: var(--fonte-principal);
-        font-size: 20.642px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
