@@ -1527,6 +1527,7 @@ body {
         background-color: var(--branco);
         min-height: max-content;
         padding-bottom: 2rem;
+        height: max-content;
 
     }
 
@@ -1537,7 +1538,7 @@ body {
         height: max-content;
         width: 80vw;
         row-gap: 0.5rem;
-        min-height: min-content;
+        height: max-content;
     }
 
     .caracteristica_box_pageP img {
