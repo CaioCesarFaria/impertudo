@@ -192,7 +192,6 @@ body {
 
 .produto_mofo p {
     color: var(--branco);
-
     text-align: center;
     font-family: var(--fonte-principal);
     font-size: 12px;
@@ -1534,6 +1533,7 @@ body {
         height: max-content;
         width: 80vw;
         row-gap: 0.5rem;
+        min-height: min-content;
     }
 
     .caracteristica_box_pageP img {
