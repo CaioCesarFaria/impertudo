@@ -1529,7 +1529,7 @@ body {
         flex-direction: column;
         align-items: center;
         height: max-content;
-        width: 205px;
+        width: 80vw;
         row-gap: 0.5rem;
     }
 
@@ -2299,7 +2299,7 @@ body {
         flex-direction: column;
         align-items: center;
         height: max-content;
-        width: 205px;
+        width: 80vw;
         row-gap: 0.5rem;
     }
 
