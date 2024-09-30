@@ -17,12 +17,12 @@ var swiperThumbs = new Swiper('.mySwiper', {
 
 // Carrossel Principal
 var swiperMain = new Swiper('.mySwiper2', {
-    spaceBetween: 10,
+    
     loop: true,
-    effect: "slide",
+    effect: "fade",
     autoplay: {
       delay: 2000,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     navigation: {
         nextEl: '.swiper-button-next',
@@ -35,6 +35,7 @@ var swiperMain = new Swiper('.mySwiper2', {
     thumbs: {
         swiper: swiperThumbs,  // Ligando ao carrossel de miniaturas
     },
+    
 });
 
 document.querySelectorAll('.saiba-mais').forEach(button => {

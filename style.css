@@ -1182,6 +1182,8 @@ body {
         max-width: 80vw;
         flex-wrap: wrap;
         margin: 0;
+        height: max-content;
+        overflow-y: hidden;
 
     }
 
@@ -1482,6 +1484,7 @@ body {
         height: auto;
 
     }
+    
 
     .box_carrossel {
         display: flex;
