@@ -258,6 +258,7 @@ body {
     align-items: center;
     justify-content: center;
     row-gap: 1rem;
+    padding: 2rem 0;
 
 
 }
@@ -996,7 +997,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 174px;
+    height: max-content;
     width: 205px;
     row-gap: 0.5rem;
 }
@@ -1535,10 +1536,10 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        height: max-content;
         width: 80vw;
         row-gap: 0.5rem;
-        height: max-content;
+        
     }
 
     .caracteristica_box_pageP img {
