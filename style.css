@@ -54,6 +54,7 @@ body {
     height: 85px;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--branco-texto);
+    overflow-y: hidden;
 
 
 }
@@ -74,8 +75,9 @@ body {
     display: flex;
     justify-content: space-between;
     column-gap: 2rem;
-    height: 85px;
+    overflow-y: hidden;
     align-items: center;
+    
 
 }
 
