@@ -207,7 +207,7 @@ body {
     align-items: center;
     background-color: #00E67F;
     height: 48px;
-    width: 45vw;
+    width: 371px;
     justify-content: center;
     column-gap: 2rem;
     border-radius: 9.805px;
@@ -854,13 +854,14 @@ body {
 .btn_maisprodutos {
     display: flex;
     align-items: center;
+    
 }
 
 .btn_maisprodutos_box {
     display: flex;
     align-items: center;
     background-color: var(--verde-whatsapp);
-    padding: 0.6rem 10rem;
+    padding: 0.7rem 1.2rem;
     border-radius: 14px;
     column-gap: 2rem;
 }
@@ -1234,7 +1235,7 @@ body {
         column-gap: 2rem;
         border-radius: 9.805px;
 
-        width: 80vw;
+        width: 70vw;
     }
 
     .info_btn_whtsaap p {
@@ -1454,21 +1455,22 @@ body {
         font-weight: 500;
         line-height: 154.8%;
         padding: 0.5rem 0;
+        
     }
 
 
 
     .btn_orcamento_pageP {
         display: flex;
-        width: 80vw;
+        width: 60vw;
         height: 40px;
         border-radius: 12px;
         background-color: var(--verde-whatsapp);
         align-items: center;
         justify-content: center;
         column-gap: 1rem;
-        margin-top: 30px;
-        margin-bottom: 2rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .btn_orcamento_box_pageP {
@@ -1489,6 +1491,7 @@ body {
     .swiper {
         width: 100%;
         height: auto;
+        margin-top: 2rem;
 
     }
 
@@ -1619,9 +1622,9 @@ body {
 
     .btn_consultoria {
         display: flex;
-        width: 80vw;
+        width: 70vw;
         height: 35px;
-        padding: 10.424px 18px;
+        padding: 0.6rem 1rem;
         justify-content: center;
         align-items: center;
         gap: 17.847px;
@@ -1629,6 +1632,7 @@ body {
         border-radius: 9.805px;
         background-color: var(--verde-whatsapp);
         margin-top: 3rem;
+
     }
 
     .btn_consultoria:hover {
@@ -1639,6 +1643,7 @@ body {
         display: flex;
         column-gap: 1rem;
         align-items: center;
+        
 
     }
 
