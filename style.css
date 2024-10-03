@@ -210,6 +210,7 @@ body {
     width: 371px;
     justify-content: center;
     column-gap: 2rem;
+    padding: 10.424px 18px;
     border-radius: 9.805px;
     margin-top: 1rem;
 }
@@ -225,7 +226,7 @@ body {
 
     text-shadow: 0px 0px 10.7px rgba(2, 51, 45, 0.00);
     font-family: var(--fonte-principal);
-    font-size: 20.642px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -613,7 +614,7 @@ body {
     color: var(--branco);
 
     font-family: var(--fonte-principal);
-    font-size: 20.642px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -860,9 +861,13 @@ body {
 .btn_maisprodutos_box {
     display: flex;
     align-items: center;
+    width: 380px;
+    height: 48px;
+    justify-content: center;
     background-color: var(--verde-whatsapp);
-    padding: 0.7rem 1.2rem;
-    border-radius: 14px;
+    padding: 10.424px 18px;
+    flex-shrink: 0;
+    border-radius: 9.805px;
     column-gap: 2rem;
 }
 
@@ -870,7 +875,7 @@ body {
     color: #FFF;
     text-shadow: 0px 0px 12.274px rgba(2, 51, 45, 0.00);
     font-family: var(--fonte-principal);
-    font-size: 23.677px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -922,16 +927,24 @@ body {
 
 .btn_orcamento_pageP {
     display: flex;
-    width: 380px;
-    height: 55px;
-    border-radius: 12px;
+    width: 371px;
+    height: 48px;
+    padding: 10.424px 18px;
+    justify-content: center;
+    align-items: center;
+    
+    flex-shrink: 0;
+    border-radius: 9.805px;
+    
     background-color: var(--verde-whatsapp);
     align-items: center;
     justify-content: center;
     column-gap: 1rem;
     margin-top: 30px;
 }
-
+.btn_orcamento_pageP:hover{
+    cursor: grab;
+}
 .btn_orcamento_box_pageP {
     display: flex;
     align-items: center;
@@ -941,9 +954,9 @@ body {
 .btn_orcamento_pageP p {
     color: #FFF;
     font-family: var(--fonte-principal);
-    font-size: 16.495px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: normal;
 }
 
